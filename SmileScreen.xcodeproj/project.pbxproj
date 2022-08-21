@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		52EBB3B328B2756000DB29D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3B228B2756000DB29D3 /* AppDelegate.swift */; };
 		52EBB3B528B2756000DB29D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3B428B2756000DB29D3 /* SceneDelegate.swift */; };
-		52EBB3B728B2756000DB29D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3B628B2756000DB29D3 /* ViewController.swift */; };
 		52EBB3BA28B2756000DB29D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EBB3B828B2756000DB29D3 /* Main.storyboard */; };
 		52EBB3BC28B2756200DB29D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EBB3BB28B2756200DB29D3 /* Assets.xcassets */; };
 		52EBB3BF28B2756200DB29D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EBB3BD28B2756200DB29D3 /* LaunchScreen.storyboard */; };
+		52EBB3CB28B278FB00DB29D3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3CA28B278FB00DB29D3 /* User.swift */; };
+		52EBB3CD28B27C3600DB29D3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3CC28B27C3600DB29D3 /* FirstViewController.swift */; };
+		52EBB3CF28B27E5600DB29D3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3CE28B27E5600DB29D3 /* SecondViewController.swift */; };
+		52EBB3D128B287B000DB29D3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3D028B287B000DB29D3 /* ThirdViewController.swift */; };
+		52EBB3D328B28C3300DB29D3 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3D228B28C3300DB29D3 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52EBB3AF28B2756000DB29D3 /* LoginInApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginInApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EBB3AF28B2756000DB29D3 /* SmileScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EBB3B228B2756000DB29D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EBB3B428B2756000DB29D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52EBB3B628B2756000DB29D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52EBB3B928B2756000DB29D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52EBB3BB28B2756200DB29D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EBB3BE28B2756200DB29D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52EBB3C028B2756200DB29D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EBB3CA28B278FB00DB29D3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		52EBB3CC28B27C3600DB29D3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		52EBB3CE28B27E5600DB29D3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		52EBB3D028B287B000DB29D3 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		52EBB3D228B28C3300DB29D3 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +56,7 @@
 		52EBB3B028B2756000DB29D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52EBB3AF28B2756000DB29D3 /* LoginInApp.app */,
+				52EBB3AF28B2756000DB29D3 /* SmileScreen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +64,59 @@
 		52EBB3B128B2756000DB29D3 /* LoginInApp */ = {
 			isa = PBXGroup;
 			children = (
-				52EBB3B228B2756000DB29D3 /* AppDelegate.swift */,
-				52EBB3B428B2756000DB29D3 /* SceneDelegate.swift */,
-				52EBB3B628B2756000DB29D3 /* ViewController.swift */,
-				52EBB3B828B2756000DB29D3 /* Main.storyboard */,
+				52EBB3C628B278A500DB29D3 /* Models */,
+				52EBB3C728B278B500DB29D3 /* Supports */,
+				52EBB3C828B278CC00DB29D3 /* ViewControllers */,
+				52EBB3C928B278DD00DB29D3 /* Stryboards */,
 				52EBB3BB28B2756200DB29D3 /* Assets.xcassets */,
-				52EBB3BD28B2756200DB29D3 /* LaunchScreen.storyboard */,
 				52EBB3C028B2756200DB29D3 /* Info.plist */,
 			);
 			path = LoginInApp;
 			sourceTree = "<group>";
 		};
+		52EBB3C628B278A500DB29D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB3CA28B278FB00DB29D3 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52EBB3C728B278B500DB29D3 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB3B228B2756000DB29D3 /* AppDelegate.swift */,
+				52EBB3B428B2756000DB29D3 /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		52EBB3C828B278CC00DB29D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB3CC28B27C3600DB29D3 /* FirstViewController.swift */,
+				52EBB3CE28B27E5600DB29D3 /* SecondViewController.swift */,
+				52EBB3D028B287B000DB29D3 /* ThirdViewController.swift */,
+				52EBB3D228B28C3300DB29D3 /* FourthViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52EBB3C928B278DD00DB29D3 /* Stryboards */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB3BD28B2756200DB29D3 /* LaunchScreen.storyboard */,
+				52EBB3B828B2756000DB29D3 /* Main.storyboard */,
+			);
+			path = Stryboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52EBB3AE28B2756000DB29D3 /* LoginInApp */ = {
+		52EBB3AE28B2756000DB29D3 /* SmileScreen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52EBB3C328B2756200DB29D3 /* Build configuration list for PBXNativeTarget "LoginInApp" */;
+			buildConfigurationList = 52EBB3C328B2756200DB29D3 /* Build configuration list for PBXNativeTarget "SmileScreen" */;
 			buildPhases = (
 				52EBB3AB28B2756000DB29D3 /* Sources */,
 				52EBB3AC28B2756000DB29D3 /* Frameworks */,
@@ -82,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = LoginInApp;
+			name = SmileScreen;
 			productName = LoginInApp;
-			productReference = 52EBB3AF28B2756000DB29D3 /* LoginInApp.app */;
+			productReference = 52EBB3AF28B2756000DB29D3 /* SmileScreen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52EBB3AA28B2756000DB29D3 /* Build configuration list for PBXProject "LoginInApp" */;
+			buildConfigurationList = 52EBB3AA28B2756000DB29D3 /* Build configuration list for PBXProject "SmileScreen" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52EBB3AE28B2756000DB29D3 /* LoginInApp */,
+				52EBB3AE28B2756000DB29D3 /* SmileScreen */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EBB3B728B2756000DB29D3 /* ViewController.swift in Sources */,
+				52EBB3CB28B278FB00DB29D3 /* User.swift in Sources */,
 				52EBB3B328B2756000DB29D3 /* AppDelegate.swift in Sources */,
 				52EBB3B528B2756000DB29D3 /* SceneDelegate.swift in Sources */,
+				52EBB3D328B28C3300DB29D3 /* FourthViewController.swift in Sources */,
+				52EBB3CF28B27E5600DB29D3 /* SecondViewController.swift in Sources */,
+				52EBB3D128B287B000DB29D3 /* ThirdViewController.swift in Sources */,
+				52EBB3CD28B27C3600DB29D3 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52EBB3AA28B2756000DB29D3 /* Build configuration list for PBXProject "LoginInApp" */ = {
+		52EBB3AA28B2756000DB29D3 /* Build configuration list for PBXProject "SmileScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52EBB3C128B2756200DB29D3 /* Debug */,
@@ -346,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52EBB3C328B2756200DB29D3 /* Build configuration list for PBXNativeTarget "LoginInApp" */ = {
+		52EBB3C328B2756200DB29D3 /* Build configuration list for PBXNativeTarget "SmileScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52EBB3C428B2756200DB29D3 /* Debug */,
